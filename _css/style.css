@@ -148,3 +148,59 @@
     color: #afafaf;
     transition: 0.7s;
 }
+
+
+.boxe_promocao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem 8%;
+  background-color: #f9f9f9;
+  gap: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.textos {
+  max-width: 50%;
+}
+
+.textos h2 {
+  font-size: 2.5rem;
+  color: #111;
+  margin-bottom: 1rem;
+}
+
+.textos p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.textos strong {
+  color: #d61515;
+}
+
+.textos button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background-color: #d61515;
+  color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.textos button:hover {
+  background-color: #a51212;
+  transform: scale(1.03);
+  transition: 0.2s ease-in;
+}
+
+.imagem_promocional img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
