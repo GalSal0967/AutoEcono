@@ -63,8 +63,8 @@
   }
   
 .botao_banner button:hover {
-    transform: scale(1.07);
-    transition: 0.8s ease-in;
+    transform: scale(1.03);
+    transition: 0.3s ease-in;
 
 }
 
@@ -74,7 +74,12 @@
 
 .card_categoria {
     width: 10vw;
-    background-color: #ea1d25;
+    cursor: pointer;
+}
+
+.card_categoria:hover {
+    transform: scale(1.04);
+    transition: 0.3s ease-in;
 }
 
 .categorias_carros_coluna {
@@ -86,9 +91,8 @@
 .titulo_categoria {
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
-    color: #ea1d25;
-    text-align: center;
-    margin: 5rem;
+    color: #000000;
+    margin: 2rem 0 4.5rem 8.1rem;
 }
 
 
@@ -96,7 +100,7 @@
 .categorias_carros_coluna {
     display: flex;
     gap: 1.5rem;
-    padding: 0 2rem;
+    padding: 0 4rem;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -104,8 +108,8 @@
 
 .card_categoria {
     position: relative;
-    width: 250px;
-    height: 350px;
+    width: 20vw;
+    height: 50vh;
     overflow: hidden;
 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -136,11 +140,11 @@
     position: absolute;
     bottom: 1rem;
     right: 1rem;
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
 }
 
 .botao_card:hover {
-    color: #ea1d25;
+    color: #afafaf;
     transition: 0.7s;
 }
