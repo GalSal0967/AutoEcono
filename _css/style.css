@@ -153,27 +153,27 @@
 .boxe_promocao {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 10rem;
   padding: 8rem 8%;
   background-color: #f9f9f9;
-  gap: 2rem;
   font-family: 'Poppins', sans-serif;
 }
+
 
 .textos {
   max-width: 50%;
 }
 
 .textos h2 {
-  font-size: 2.5rem;
-  color: #111;
+  font-size: 3.5rem;
+  color: #d61515;
   margin-bottom: 1rem;
 }
 
 .textos p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #333;
-  margin-bottom: 1rem;
 }
 
 .textos strong {
@@ -181,8 +181,8 @@
 }
 
 .textos button {
-  margin-top: 1rem;
-  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+  padding: 1.4rem 2.5rem;
   background-color: #d61515;
   color: #fff;
   border: none;
@@ -200,7 +200,65 @@
 }
 
 .imagem_promocional img {
-  max-width: 100%;
+  max-width: 500px;
   height: auto;
   border-radius: 1rem;
 }
+
+.carro_alta_card {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    width: 18vw;
+    height: 40vh;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+
+
+.carro_alta_card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.carro_alta_card .modelo {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.carro_alta_card .preco {
+    font-size: 1rem;
+    color: #ff4b4b;
+}
+
+.botao_reservar {
+    background-color: #ea1d25;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 50%;
+    height: 5vh;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.botao_reservar:hover {
+    background-color: #ac1217;
+}
+
+.preco_e_compra_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
