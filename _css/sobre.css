@@ -1,0 +1,93 @@
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+.banner img {
+    width: 100%;
+    height: 50%
+}
+
+
+
+.caixa_busca {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 4rem;
+    background-color: white;
+  }
+  
+  .logo img {
+    width: 8rem;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  
+  .links_nav {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .links_nav a {
+    text-decoration: none;
+    color: #ea1d25;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+.links_nav a {
+  text-decoration: none;
+  color: #ea1d25;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  position: relative; 
+  padding-bottom: 5px; 
+  transition: color 0.3s ease;
+}
+
+.links_nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea1d25;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.links_nav a:hover::after {
+  transform: scaleX(1);
+}
+
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 15rem;
+    }
+
+    .secao-esquerda, .secao-direita {
+        max-width: 500px;
+    }
+
+    h1, h2 {
+      color: #ea1d25;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    a {
+      color: #ea1d25;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }

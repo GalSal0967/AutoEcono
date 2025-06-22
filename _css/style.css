@@ -225,7 +225,7 @@
 }
 
 .imagem_promocional img {
-  max-width: 500px;
+  max-width: 300px;
   height: auto;
   border-radius: 1rem;
 }
@@ -287,3 +287,50 @@
   align-items: center;
 }
 
+.contact_me {
+    background-color: rgb(248, 248, 248, 0.4);
+    padding: 3rem;     
+    margin: 0 auto;
+    width: 40vw;       
+    border-radius: 1rem; 
+    max-width: 400px;
+    animation: fadeInUp 1s ease-out forwards; 
+}
+
+.textos_contact p {
+  padding-bottom: 1.2rem;
+}
+
+
+
+
+.icone {
+    font-size: 3rem;
+    color: #ea1d25;
+    margin-top: 1rem;
+    margin-right: 1.2rem;
+}
+
+.caixa {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.textos_contato h1{
+  font-size: 3rem;
+  color: #ea1d25;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.textos_contato p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.textos_contato {
+  padding: 2rem;
+}
