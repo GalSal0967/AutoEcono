@@ -100,6 +100,7 @@
 .card_categoria {
     width: 10vw;
     cursor: pointer;
+    
 }
 
 .card_categoria:hover {
@@ -126,7 +127,6 @@
     display: flex;
     gap: 1.5rem;
     padding: 0 4rem;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -134,9 +134,8 @@
 .card_categoria {
     position: relative;
     width: 20vw;
-    height: 50vh;
     overflow: hidden;
-
+    
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -333,4 +332,41 @@
 
 .textos_contato {
   padding: 2rem;
+}
+
+.div_suporte {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto_suporte h1 {
+  color: #ea1d25;
+  font-size: 2.5rem;
+}
+
+.texto_suporte p {
+  max-width: 60%;
+}
+
+.formulario_suporte {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formulario_suporte input {
+  border-radius: 5px;
+  border: 0.5px solid #e9e9e9;
+  width: 20vw;
+  height: 4.5vh;
+  padding-left: 0.5rem;
+}
+
+.formulario_suporte button {
+  height: 4vh;
+  background-color: #ea1d25;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }

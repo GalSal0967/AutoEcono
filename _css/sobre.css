@@ -88,9 +88,7 @@
       text-decoration: none;
     }
 
-    a:hover {
-      text-decoration: underline;
-    }
+
 
 
 .mapa iframe{
@@ -100,4 +98,8 @@
   max-width: 600px;
   border-radius: 8px;
   padding-bottom: 4rem;
+}
+
+.localizacao_link:hover{
+  text-decoration: underline;
 }
